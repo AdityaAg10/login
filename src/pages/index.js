@@ -11,6 +11,7 @@ const ReactRouterSetup = () => {
             <Routes>
                 <Route exact path="/"  element={<Login/>} />
                 <Route path="/login" element={<Login/>} />
+                <Route path="/home" element={<Home/>} />
                 <Route path="/signup" element={<SignUp />} />
                 <Route path="*" element={<NoPage/>} />
             </Routes>
